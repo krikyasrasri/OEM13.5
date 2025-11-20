@@ -1,0 +1,737 @@
+[0;34m[INFO][0m Setting up environment for OMS 13.5 installation...
+[0;34m[INFO][0m ORACLE_BASE: /u01/app/oracle
+[0;34m[INFO][0m Creating log directory: /u01/app/oracle/cfgtoollogs
+[0;34m[INFO][0m Using response file: /u01/app/oracle/software/oms13.5_install.rsp
+[0;34m[INFO][0m Starting OMS 13.5 installation...
+[1;33m[WARNING][0m This may take 1-3 hours. Do not interrupt the process.
+[0;34m[INFO][0m Logs will be available at: /u01/app/oracle/cfgtoollogs/install/
+
+[0;34m[INFO][0m Running: ./em13500_linux64.bin -silent -responseFile /u01/app/oracle/software/oms13.5_install.rsp
+Launcher log file is /tmp/OraInstall2025-11-20_01-18-56PM/launcher2025-11-20_01-18-56PM.log.
+Extracting the installer . . . . . . . . . . . . . . . . . . . . . . . . . . Done
+Checking swap space: must be greater than 512 MB.   Actual 15359 MB    Passed
+Checking if this platform requires a 64-bit JVM.   Actual 64    Passed (64-bit not required)
+Preparing to launch the Oracle Universal Installer from /tmp/OraInstall2025-11-20_01-18-56PM
+ScratchPathValue :/tmp/OraInstall2025-11-20_01-18-56PM
+Nov 20, 2025 1:20:07 PM org.apache.sshd.common.io.DefaultIoServiceFactoryFactory getIoServiceProvider
+INFO: No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+Installation in progress
+
+Install successful
+Linking in progress
+
+Link successful
+Setup in progress
+
+Setup successful
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+Installation in progress
+
+Install successful
+Linking in progress
+
+Link successful
+Setup in progress
+
+Setup successful
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+..................................................................................................
+Installation in progress (Thursday, November 20, 2025 1:22:12 PM PST)
+                              98% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:22:13 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:22:13 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:22:13 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:22:16 PM PST)
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+...............................................................  42% Done.
+...............................................................  85% Done.
+...................
+Installation in progress (Thursday, November 20, 2025 1:22:25 PM PST)
+                                              98% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:22:25 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:22:25 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:22:25 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:22:28 PM PST)
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+..................................................................................................
+Installation in progress (Thursday, November 20, 2025 1:22:33 PM PST)
+                              98% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:22:33 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:22:33 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:22:33 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:22:36 PM PST)
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+...............................................................  21% Done.
+...............................................................  42% Done.
+...............................................................  63% Done.
+...............................................................  84% Done.
+..........................................
+Installation in progress (Thursday, November 20, 2025 1:22:59 PM PST)
+                       98% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:22:59 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:22:59 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:22:59 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:23:02 PM PST)
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+...............................................................  48% Done.
+...............................................................  96% Done.
+..
+Installation in progress (Thursday, November 20, 2025 1:23:18 PM PST)
+                                                               98% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:23:18 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:23:18 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:23:18 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:23:22 PM PST)
+Installing agent plugins if not upgrade
+&Decline License Agreement/u01/app/oracle/middleware13.5/sysman/install/plugins/oracle.sysman.emas/13.5.1.0.0/oracle.sysman.emas.agent.plugin-13.5.1.0.0.farb
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+..................................................................................................
+Installation in progress (Thursday, November 20, 2025 1:23:25 PM PST)
+                              98% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:23:25 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:23:25 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:23:25 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:23:28 PM PST)
+&Decline License Agreement/u01/app/oracle/middleware13.5/sysman/install/plugins/oracle.sysman.emrep/13.5.0.0.0/oracle.sysman.emrep.agent.plugin-13.5.0.0.0.farb
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+.....................................................................................
+Installation in progress (Thursday, November 20, 2025 1:23:30 PM PST)
+                                           85% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:23:30 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:23:30 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:23:30 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:23:33 PM PST)
+&Decline License Agreement/u01/app/oracle/middleware13.5/sysman/install/plugins/oracle.sysman.beacon/13.5.0.0.0/oracle.sysman.beacon.agent.plugin-13.5.0.0.0.farb
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+............................................................................................
+Installation in progress (Thursday, November 20, 2025 1:23:35 PM PST)
+                                    92% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:23:35 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:23:35 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:23:35 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:23:38 PM PST)
+&Decline License Agreement/u01/app/oracle/middleware13.5/sysman/install/plugins/oracle.sysman.oh/13.5.0.0.0/oracle.sysman.oh.agent.plugin-13.5.0.0.0.farb
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+.................................................................................................
+Installation in progress (Thursday, November 20, 2025 1:23:39 PM PST)
+                               97% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:23:39 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:23:39 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:23:39 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:23:42 PM PST)
+&Decline License Agreement/u01/app/oracle/middleware13.5/sysman/install/plugins/oracle.sysman.csa/13.5.0.0.0/oracle.sysman.csa.agent.plugin-13.5.0.0.0.farb
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+........................................................................
+Installation in progress (Thursday, November 20, 2025 1:23:44 PM PST)
+                                                        72% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:23:44 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:23:44 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:23:44 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:23:47 PM PST)
+Checking the current seesion Index -10
+&Decline License Agreement/u01/app/oracle/middleware13.5/sysman/install/plugins/oracle.sysman.emas/13.5.1.0.0/oracle.sysman.emas.discovery.plugin-13.5.1.0.0.farb
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+..................................................................................................
+Installation in progress (Thursday, November 20, 2025 1:23:48 PM PST)
+                              98% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:23:49 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:23:49 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:23:49 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:23:52 PM PST)
+&Decline License Agreement/u01/app/oracle/middleware13.5/sysman/install/plugins/oracle.sysman.db/13.5.1.0.0/oracle.sysman.db.discovery.plugin-13.5.1.0.0.farb
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+...........................................................................................
+Installation in progress (Thursday, November 20, 2025 1:23:53 PM PST)
+                                     91% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:23:53 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:23:53 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:23:53 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:23:56 PM PST)
+&Decline License Agreement/u01/app/oracle/middleware13.5/sysman/install/plugins/oracle.sysman.csa/13.5.0.0.0/oracle.sysman.csa.discovery.plugin-13.5.0.0.0.farb
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+.................................................................................................
+Installation in progress (Thursday, November 20, 2025 1:23:58 PM PST)
+                               96% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:23:58 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:23:58 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:23:58 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:24:01 PM PST)
+&Decline License Agreement/u01/app/oracle/middleware13.5/sysman/install/plugins/oracle.sysman.xa/13.5.1.0.0/oracle.sysman.xa.discovery.plugin-13.5.1.0.0.farb
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+..............................................................................
+Installation in progress (Thursday, November 20, 2025 1:24:02 PM PST)
+                                                  78% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:24:02 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:24:02 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:24:02 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:24:05 PM PST)
+&Decline License Agreement/u01/app/oracle/middleware13.5/sysman/install/plugins/oracle.sysman.si/13.5.1.0.0/oracle.sysman.si.discovery.plugin-13.5.1.0.0.farb
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+.............................................................................
+Installation in progress (Thursday, November 20, 2025 1:24:07 PM PST)
+                                                   77% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:24:07 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:24:07 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:24:07 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:24:10 PM PST)
+&Decline License Agreement/u01/app/oracle/middleware13.5/sysman/install/plugins/oracle.sysman.oh/13.5.0.0.0/oracle.sysman.oh.discovery.plugin-13.5.0.0.0.farb
+Session log file is /tmp/OraInstall2025-11-20_01-18-56PM/install2025-11-20_01-18-56PM.log
+
+........................................................................
+Installation in progress (Thursday, November 20, 2025 1:24:11 PM PST)
+                                                        72% Done.
+Install successful
+
+Linking in progress (Thursday, November 20, 2025 1:24:11 PM PST)
+Link successful
+
+Setup in progress (Thursday, November 20, 2025 1:24:11 PM PST)
+Setup successful
+
+Saving inventory (Thursday, November 20, 2025 1:24:11 PM PST)
+Saving inventory complete
+
+End of install phases.(Thursday, November 20, 2025 1:24:14 PM PST)
+.13NGCHEKAGGREGATE  : oracle.sysman.top.oms
+13NGCHEKAGGREGATE  : oracle.sysman.top.agent
+13NGCHEKAGGREGATE  : encap_oms
+13NGCHEKAGGREGATE  : OuiConfigVariables
+13NGCHEKAGGREGATE  : OuiConfigVariables
+2025-11-20_01-28-02PM: Configuration Assistant "Plugins Prerequisites Check" is in progress.
+
+2025-11-20_01-28-07PM: Configuration Assistant "Plugins Prerequisites Check" has Succeeded.
+
+2025-11-20_01-28-07PM: Configuration Assistant "Repository Configuration" is in progress.
+
+before starting RCU
+Calling the EMSCHEMA MANAGER: CREATE
+
+Repository Creation Utility - Checking Prerequisites
+Checking Global Prerequisites
+Repository Creation Utility - Checking Prerequisites
+Checking Component Prerequisites
+Repository Creation Utility - Creating Tablespaces
+Validating and Creating Tablespaces
+Create tablespaces in the repository database
+Repository Creation Utility - Create
+Repository Create in progress.
+Executing pre create operations
+Creating EM Repository Common(EM_REPOS_COMMON)
+Creating EM Repository Init Configuration(EM_REPOS_INIT)
+
+ Check the Repository Configuration Assistant logs at: /u01/app/oracle/middleware13.5/sysman/log/schemamanager
+
+INVOKING with sslConfig
+TNS Test Inserted Successfully
+Successfully Added TNS Query Descriptors
+
+  ********   ORACLE_HOME is /u01/app/oracle/middleware13.5
+test properties path: /u01/app/oracle/middleware13.5/sysman/admin/emdrep/prop/imap.properties
+CreateTestType:createCompleteTest: BEGIN
+CreateTestType:createTestMetadataObject: BEGIN
+CreateTestType:createTestMetadataObject: END
+CreateTestType:createPropertyGroups: BEGIN
+CreateTestType:createPropertyGroups: END
+CreateTestType:createStrayProperties: BEGIN
+CreateTestType:createStrayProperties: END
+CreateTestType:createDefaultPromotions: BEGIN
+CreateTestType:createDefaultPromotions: END
+CreateTestType:createDefaultThresholds: BEGIN
+CreateTestType:createDefaultThresholds: END
+CreateTestType:createMetrics4TestType: BEGIN
+CreateTestType:createMetrics4TestType: END
+PropertyName :imap_host
+PropertyName :imap_port
+PropertyName :imap_user_name
+PropertyName :imap_password
+PropertyName :numretries
+PropertyName :retryinterval
+CreateTestType:createQueryDescriptor: BEGIN
+CreateTestType:createQueryDescriptor: END
+Enabled test for: IMAP , generic_service , 1.0
+Enabled test for: IMAP , aggregate_service , 1.0
+CreateTestType:createCompleteTest: END
+  ********   ORACLE_HOME is /u01/app/oracle/middleware13.5
+INVOKING with sslConfig
+INVOKING with sslConfig
+Creating EM Repository Creation Configuration(EM_REPOS_CONFIG)
+Executing post create operations
+
+Repository Creation Utility: Create - Completion Summary
+
+Database details:
+-----------------------------
+Connect Descriptor                           : (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.72.62.46)(PORT=1441)))(CONNECT_DATA=(SID=emmsys01)))
+Connected As                                 : SYS
+RCU Logfile                                  : No log file specified
+
+Component schemas created:
+-----------------------------
+Component                                    Status         Logfile		
+
+EM Repository Creation Configuration         Success        /u01/app/oracle/middleware13.5/sysman/log/schemamanager/m_112025_0128_PM/m_112025_0128_PM.CREATE/RCU2025-11-20_13-28_214260590/logs/em_repos_config.log 
+EM Repository Init Configuration             Success        /u01/app/oracle/middleware13.5/sysman/log/schemamanager/m_112025_0128_PM/m_112025_0128_PM.CREATE/RCU2025-11-20_13-28_214260590/logs/em_repos_init.log 
+EM Repository Common                         Success        /u01/app/oracle/middleware13.5/sysman/log/schemamanager/m_112025_0128_PM/m_112025_0128_PM.CREATE/RCU2025-11-20_13-28_214260590/logs/em_repos_common.log 
+
+Repository Creation Utility - Create : Operation Completed
+after starting RCU
+-------------------This action is not required ------------------
+The correct order of execution is : 
+-showPrereqs , -runPrerequisites , -showCorrectiveActions , -runCorrectiveActions , -runPrerequisites(optional at this point), -showPostCorrectiveActions , -runPostCorrectiveActions
+The creation of Repository is completed now running the MOS
+
+2025-11-20_02-07-36PM: Configuration Assistant "Repository Configuration" has Succeeded.
+
+2025-11-20_02-07-36PM: Configuration Assistant "MDS Schema Configuration" is in progress.
+
+jdbcURL:[jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.72.62.46)(PORT=1441)))(CONNECT_DATA=(SID=emmsys01)))]
+ssl info is null
+-silent -createRepository -compInfoXMLLocation /u01/app/oracle/middleware13.5/sysman/emdrep/config/mds/ComponentInfo.xml -storageXMLLocation /u01/app/oracle/middleware13.5/sysman/emdrep/config/mds/Storage.xml -connectString (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.72.62.46)(PORT=1441)))(CONNECT_DATA=(SID=emmsys01))) -dbUser SYS -dbRole sysdba -schemaPrefix SYSMAN -component MDS 
+Repository Creation Utility - Checking Prerequisites
+Checking Global Prerequisites
+Repository Creation Utility - Checking Prerequisites
+Checking Component Prerequisites
+Repository Creation Utility - Creating Tablespaces
+Validating and Creating Tablespaces
+Create tablespaces in the repository database
+Repository Creation Utility - Create
+Repository Create in progress.
+Executing pre create operations
+        Percent Complete: 50
+        Percent Complete: 50
+        Percent Complete: 55
+        Percent Complete: 55
+        Percent Complete: 60
+        Percent Complete: 60
+Creating Metadata Services(MDS)
+        Percent Complete: 80
+Executing post create operations
+        Percent Complete: 100
+
+Repository Creation Utility: Create - Completion Summary
+
+Database details:
+-----------------------------
+Connect Descriptor                           : (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.72.62.46)(PORT=1441)))(CONNECT_DATA=(SID=emmsys01)))
+Connected As                                 : SYS
+Prefix for (prefixable) Schema Owners        : SYSMAN
+RCU Logfile                                  : No log file specified
+
+Component schemas created:
+-----------------------------
+Component                                    Status         Logfile		
+
+Metadata Services                            Success        /u01/app/oracle/middleware13.5/sysman/log/schemamanager/m_112025_0128_PM/m_112025_0128_PM.CREATE/RCU2025-11-20_14-07_1375411297/logs/mds.log 
+
+Repository Creation Utility - Create : Operation Completed
+jdbcURL:[jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.72.62.46)(PORT=1441)))(CONNECT_DATA=(SID=emmsys01)))]
+Repository Creation Utility - Checking Prerequisites
+Checking Global Prerequisites
+Repository Creation Utility - Checking Prerequisites
+Checking Component Prerequisites
+Repository Creation Utility - Creating Tablespaces
+Validating and Creating Tablespaces
+Create tablespaces in the repository database
+Repository Creation Utility - Create
+Repository Create in progress.
+Executing pre create operations
+        Percent Complete: 50
+        Percent Complete: 55
+        Percent Complete: 65
+        Percent Complete: 65
+        Percent Complete: 80
+        Percent Complete: 90
+        Percent Complete: 95
+        Percent Complete: 95
+Creating Oracle Platform Security Services(OPSS)
+        Percent Complete: 97
+Executing post create operations
+        Percent Complete: 100
+
+Repository Creation Utility: Create - Completion Summary
+
+Database details:
+-----------------------------
+Connect Descriptor                           : (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.72.62.46)(PORT=1441)))(CONNECT_DATA=(SID=emmsys01)))
+Connected As                                 : SYS
+Prefix for (prefixable) Schema Owners        : SYSMAN122140
+RCU Logfile                                  : No log file specified
+
+Component schemas created:
+-----------------------------
+Component                                    Status         Logfile		
+
+Oracle Platform Security Services            Success        /u01/app/oracle/middleware13.5/sysman/log/schemamanager/m_112025_0128_PM/m_112025_0128_PM.CREATE/RCU2025-11-20_14-07_1375411297/logs/opss.log 
+
+Repository Creation Utility - Create : Operation Completed
+Repository Creation Utility - Checking Prerequisites
+Checking Global Prerequisites
+Repository Creation Utility - Checking Prerequisites
+Checking Component Prerequisites
+Repository Creation Utility - Creating Tablespaces
+Validating and Creating Tablespaces
+Create tablespaces in the repository database
+Repository Creation Utility - Create
+Repository Create in progress.
+Executing pre create operations
+        Percent Complete: 50
+        Percent Complete: 50
+        Percent Complete: 55
+        Percent Complete: 60
+        Percent Complete: 65
+        Percent Complete: 65
+        Percent Complete: 70
+        Percent Complete: 70
+Creating Common Infrastructure Services(STB)
+        Percent Complete: 85
+Executing post create operations
+        Percent Complete: 100
+
+Repository Creation Utility: Create - Completion Summary
+
+Database details:
+-----------------------------
+Connect Descriptor                           : (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.72.62.46)(PORT=1441)))(CONNECT_DATA=(SID=emmsys01)))
+Connected As                                 : SYS
+Prefix for (prefixable) Schema Owners        : SYSMAN
+RCU Logfile                                  : No log file specified
+
+Component schemas created:
+-----------------------------
+Component                                    Status         Logfile		
+
+Common Infrastructure Services               Success        /u01/app/oracle/middleware13.5/sysman/log/schemamanager/m_112025_0128_PM/m_112025_0128_PM.CREATE/RCU2025-11-20_14-07_1375411297/logs/stb.log 
+
+Repository Creation Utility - Create : Operation Completed
+2025-11-20_02-08-07PM: Configuration Assistant "MDS Schema Configuration" has Succeeded.
+
+2025-11-20_02-08-07PM: Configuration Assistant "OMS Configuration" is in progress.
+
+
+ Executing the OMSCA command...
+
+ Check the log files of the OMS Configuration Assistant at: /u01/app/oracle/middleware13.5/cfgtoollogs/omsca
+
+
+
+ OMS Configuration Assistant completed successfully.
+
+
+2025-11-20_02-16-51PM: Configuration Assistant "OMS Configuration" has Succeeded.
+
+2025-11-20_02-16-51PM: Configuration Assistant "Plugins Deployment and Configuration" is in progress.
+
+2025-11-20_02-20-39PM: Configuration Assistant "Plugins Deployment and Configuration" has Succeeded.
+
+2025-11-20_02-20-39PM: Configuration Assistant "Start Oracle Management Service" is in progress.
+
+Starting OMS ...
+Executing the command: /u01/app/oracle/middleware13.5/bin/emctl start oms
+
+Starting of OMS is successful.
+Starting export oms config...
+Executing command: /u01/app/oracle/middleware13.5/bin/emctl exportconfig oms -dir  /u01/app/oracle/gc_inst/em/EMGC_OMS1/sysman/backup
+
+Export config of OMS is successful.
+
+2025-11-20_02-23-22PM: Configuration Assistant "Start Oracle Management Service" has Succeeded.
+
+2025-11-20_02-23-22PM: Configuration Assistant "Agent Configuration Assistant" is in progress.
+
+AgentConfiguration:agent configuration has been started
+
+The AgentFreshInstaller is starting now
+Oraclehome : ../u01/app/oracle/agent/agent_13.5.0.0.0
+InstanceHome : /u01/app/oracle/agent/agent_inst
+Agent Base Directory : /u01/app/oracle/agent
+The oraclehome /u01/app/oracle/agent/agent_13.5.0.0.0
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: /u01/app/oracle/agent/agent_13.5.0.0.0
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: /u01/app/oracle/agent/agent_inst
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseRespsotnasretFAigleen
+tI NiFsO::t r/uue0
+1/aspepc/io riasc l:et/raugee
+nt
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: RESPONSE_FILE=/u01/app/oracle/agent/agentInstall.rsp
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: ORACLE_HOME=/u01/app/oracle/agent/agent_13.5.0.0.0
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: AGENT_PORT=
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: ORACLE_HOSTNAME=ip-10-72-56-75.vpc.internal
+Novs t2a0r,t A2g0e2n5t  2i:s2:3t:r2u2e 
+PM soercaic lies. s:ytsrmuaen
+.agent.installer.AgentInstaller parseResponseFile
+INFO: b_doDiscovery=true
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: AGENT_BASE_DIR=/u01/app/oracle/agent
+Nov 20, 2025 l2o:g2 3l:o2c2t iPoMn  oirsa csleet.lsoygs
+man.agent.installer.AgeCnrteIantsitnagl lleorg  pdairrseecRteosypro n:s/euF0i1l/ea
+pIpN/FoOr:a cAlGeE/NaTg_eInNtS/TaAgNeCnEt__H1O3M.E5=./0u.001./0a/pcpf/gotroaocllleo/gasg/eangte/natgDeenptl_oiyn
+st
+WNroivt i2n0g,  t2h0e2 5f o2l:l2o3w:i2n2g  PcMo notreanctlse .isnytsom a/nu.0a1g/eanptp./ionrsatcallel/earg.eAngte/natgIennstt_a1l3l.e5r. 0p.a0r.s0e/Rienssptoanlsle/Foirlaeg
+cIhNoFmOe:l iss_th
+o/sutn0a1m/ea=pipp/-o1r0a-c7l2e-/5a6g-e7n5t./vapgce.nitn_t1e3r.n5a.l0
+.N0o.v0 :2/0u,0 12/0a2p5p /2o:r2a3c:l2e2/ aPgMe notr/aacgleen.ts_yisnmsatn
+.agCerneta.tiinnsgt adlilreerc.tAogreyn t/Iun0s1t/aalplpe/ro rpaacrlsee/Raegsepnotn/saegFeinlte_
+1I3N.F5O.:0 .O0M.S0_/HiOnSsTt=ailpl-/1t0m-p7 2c-o5m6p-l7e5t.evdp cs.uicncteesrsnfaull
+lNyo.v
+ F2i0l,e  2/0e2t5c /2o:r2a3g:c2h2o mPeMl iosrta celxei.sstyss.m
+aFni.laeg e/nett.ci/nosrtaaglclheorm.eAlgiesntt Iinss twarliltearb lpea.r
+seRIensdpeoxn s:e-F1i lfeo
+rI NlFiOn:e S T:A R/Tu_0A1G/EaNpTp=/torruaec
+lNeo/vm i2d0d,l e2w0a2r5e 123:.253
+:I2n2d ePxM  :o0r afcolre .lsiynsem a:n ./aug0e1n/ta.pipn/sotraalclleer/.aAggeenntt/Iangsetnatl_l1e3r. 5p.a0r.s0e.R0e
+sOpvoenrswerFiitlien
+gI NtFhOe:  cbo_nsteecnutrse Asgienncte= torruaec
+lNeo vh o2m0e,: /2u00215/ a2p:p2/3o:r2a2c lPeM/ aogreanctl/ea.gseynstm_a1n3..a5g.e0n.t0..i0n setnatlrlye ra.lArgeeandtyI nesxtiasltlse.r
+ parseResponseFile
+INFO: b_chainedInstall=true
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: b_forceConfigure=false
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: EM_UPLOAD_PORT=4903
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: b_forceAgentDefaultPort=false
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: s_staticPorts=
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: PROPERTIES_FILE=
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: b_skipValidation=false
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: ORACLE_HOME=/u01/app/oracle/agent/agent_13.5.0.0.0
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: AGENT_PORT=
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: ORACLE_HOSTNAME=ip-10-72-56-75.vpc.internal
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: b_doDiscovery=true
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: AGENT_BASE_DIR=/u01/app/oracle/agent
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: AGENT_INSTANCE_HOME=/u01/app/oracle/agent/agent_inst
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: s_hostname=ip-10-72-56-75.vpc.internal
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: OMS_HOST=ip-10-72-56-75.vpc.internal
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: START_AGENT=true
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: b_secureAgent=true
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: b_chainedInstall=true
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: b_forceConfigure=false
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: EM_UPLOAD_PORT=4903
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: b_forceAgentDefaultPort=false
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: s_staticPorts=
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: PROPERTIES_FILE=
+Nov 20, 2025 2:23:22 PM oracle.sysman.agent.installer.AgentInstaller parseResponseFile
+INFO: b_skipValidation=false
+Agent Home is : {0}
+The value of chainInstall : true forceConfigure : false skipValidation : false
+Validated the oms host and port :- ip-10-72-56-75.vpc.internal----4903
+Logs Location is : {0}
+Getting Inet Addresses for host ip-10-72-56-75.vpc.internal
+** Agent Port Check completed successfully.**
+Validated the agent port :- ----3872
+Executing command: {0}
+shared agent value is :false
+
+Setting system property CUSTOM_INVENTORY to {0}
+chain install is :true
+
+Cloning of agent home completed successfully
+Agent Configuration completed successfully
+The following configuration scripts need to be executed as the "root" user. Root script to run : /u01/app/oracle/agent/agent_13.5.0.0.0/root.sh
+AgentConfiguration:agent configuration finished with status = true
+
+2025-11-20_02-24-09PM: Configuration Assistant "Agent Configuration Assistant" has Succeeded.
+
+*** The Installation was Successful. ***
+
+
+This information is also available at: 
+
+	/u01/app/oracle/middleware13.5/install/setupinfo.txt
+
+See the following for information pertaining to your Enterprise Manager installation:
+
+
+Use the following URL to access:
+
+	1. Enterprise Manager Cloud Control URL: https://ip-10-72-56-75.vpc.internal:7803/em
+	2. Admin Server URL: https://ip-10-72-56-75.vpc.internal:7102/console
+
+The following details need to be provided while installing an additional OMS:
+
+	1. Admin Server Host Name: ip-10-72-56-75.vpc.internal
+	2. Admin Server Port: 7102
+
+You can find the details on ports used by this deployment at : /u01/app/oracle/middleware13.5/install/portlist.ini
+
+
+ NOTE:
+ An encryption key has been generated to encrypt sensitive data in the Management Repository. If this key is lost, all encrypted data in the Repository becomes unusable. 
+
+ A backup of the OMS configuration is available in /u01/app/oracle/gc_inst/em/EMGC_OMS1/sysman/backup on host ip-10-72-56-75.vpc.internal. See Cloud Control Administrators Guide for details on how to back up and recover an OMS.
+
+ NOTE: This backup is valid only for the initial OMS configuration. For example, it will not reflect plug-ins installed later, topology changes like the addition of a load balancer, or changes to other properties made using emctl or emcli. Backups should be created on a regular basis to ensure they capture the current OMS configuration. Use the following command to backup the OMS configuration:
+/u01/app/oracle/middleware13.5/bin/emctl exportconfig oms -dir <backup dir> 
+
+Prompt for the allroot.sh
+
+Warning: You must run the following configuration scripts as the "root" user.
+  /u01/app/oracle/middleware13.5/allroot.sh
+To execute the configuration scripts:
+ 1. Open a new  terminal window. 
+ 2. Login in as "root". 
+ 3. Run the scripts. 
+
+Successfully installed Enterprise Manager Cloud Control.
+Logs successfully copied to /u01/app/oraInventory/logs.
+[0;32m[SUCCESS][0m Installation completed successfully!
+[0;34m[INFO][0m Check logs at: /u01/app/oracle/cfgtoollogs/install/
