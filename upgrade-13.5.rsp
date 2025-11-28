@@ -105,7 +105,7 @@ ORACLE_INSTANCE_HOME_LOCATION=/data/oracle/gc_inst13.5
 # Type        : string
 # Description : Old middleware Home that you want to upgrade.This is applicable when ONE_SYSTEM=true.
 #------------------------------------------------------------------#
-OLD_BASE_DIR=/data/oracle
+OLD_BASE_DIR=/data/oracle/Middleware13.4
 
 #------------------------------------------------------------------#
 # Name        : ORACLE_HOSTNAME
@@ -197,7 +197,7 @@ WLS_ADMIN_SERVER_PASSWORD=Intuit_123456
 # Description : Applicable for both ONE_SYSTEM and TWO_SYSTEM upgrade scenario from 10.2.0.5 -> 12.1.0.4.0
 #               JVM table space location.
 #------------------------------------------------------------------#
-JVM_DIAGNOSTICS_TABLESPACE_LOCATION="/data/files/datafiles/mgmt_deepdive.dbf"
+JVM_DIAGNOSTICS_TABLESPACE_LOCATION="/data/files/mgmt_deepdive.dbf"
 
 #------------------------------------------------------------------#
 # Name        : DATABASE_HOSTNAME
