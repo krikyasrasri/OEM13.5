@@ -30,4 +30,113 @@ AGENT RU 27 (17-July-2025),Patch 37784435
 
 - Enterprise Manager Cloud Control Management Agent 13.5 Release Update (RU) 27 Bug List ( Doc ID 3095221.1 )
 
- 	
+
+--DB parameters changes :- 
+
+SQL> show parameter session_cached_cursors;
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+session_cached_cursors		     integer	 50
+SQL> alter system set session_cached_cursors=250 scope=both;
+alter system set session_cached_cursors=250 scope=both
+                                            *
+ERROR at line 1:
+ORA-02096: specified initialization parameter is not modifiable with this
+option
+
+
+SQL> ALTER SYSTEM SET session_cached_cursors = 200 scope=spfile;
+
+System altered.
+
+SQL> show parameter session_cached_cursors;
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+session_cached_cursors		     integer	 50
+SQL>
+
+ADD logfile group morethan 300mb size :
+
+alter database add logfile group 12 '/data/files/redo12.log' size 1025m;
+
+job queue process value should be zero.
+
+SQL> show parameter job_queue_processes;
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+job_queue_processes		     integer	 50
+SQL>
+SQL> alter system set job_queue_processes=0 scope=both;
+
+System altered.
+
+SQL> show parameter job_queue_processes;
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+job_queue_processes		     integer	 0
+SQL>
+
+
+CBO jjob check : 
+Login to database as SYSDBA:
+
+SELECT CLIENT_NAME,
+STATUS
+FROM DBA_AUTOTASK_CLIENT
+WHERE CLIENT_NAME = 'auto optimizer stats collection';
+
+Below is how the job can be disabled:
+
+EXEC DBMS_AUTO_TASK_ADMIN.DISABLE(client_name => 'auto optimizer stats collection', operation => NULL, window_name => NULL);
+
+
+Below is how the job can be enabled:
+
+exec DBMS_AUTO_TASK_ADMIN.ENABLE(client_name => 'auto optimizer stats collection', operation =>NULL, window_name => NULL);
+
+
+grant execute on DBMS_RANDOM to DBSNMP;
+
+
+The parallel max servers parameter will be temporarily set to a lower value
+
+SQL> show parameter servers;
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+inmemory_max_populate_servers	     integer	 0
+inmemory_trickle_repopulate_servers_ integer	 1
+percent
+max_auth_servers		     integer	 25
+max_shared_servers		     integer
+min_auth_servers		     integer	 1
+parallel_max_servers		     integer	 640
+parallel_min_servers		     integer	 0
+parallel_servers_target 	     integer	 128
+shared_servers			     integer	 0
+SQL> alter system set parallel_max_servers=0 scope=both;
+
+System altered.
+
+SQL>  show parameter servers;
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+inmemory_max_populate_servers	     integer	 0
+inmemory_trickle_repopulate_servers_ integer	 1
+percent
+max_auth_servers		     integer	 25
+max_shared_servers		     integer
+min_auth_servers		     integer	 1
+parallel_max_servers		     integer	 0
+parallel_min_servers		     integer	 0
+parallel_servers_target 	     integer	 128
+shared_servers			     integer	 0
+SQL>
+
+
+
