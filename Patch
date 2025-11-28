@@ -6,3 +6,28 @@ OMS - Patch 38100300: Oracle Enterprise Manager 13c Release 5 Update 28 (13.5.0.
 Agent - Patch 38100678: Oracle Enterprise Manager 13c Release 5 Update 28 (13.5.0.28) for Oracle Management Agent
 Download latest agentpatcher (13.5,24ai: How to Upgrade AgentPatcher to the Latest Version ( Doc ID 2810322.1 ) )
 Patch 33355570: Tracking bug to upload AgentPatcher Utility to MOS
+
+
+	
+oracle.sysman.db.oms.plugin/13.5.1.0.0 Plugin 38100300 38100334 Oracle Enterprise Manager for Oracle Database 13c Release 5 Plug-in Update 28 (13.5.1.28) for Oracle Management Service
+
+$ OMS
+<OMS_HOME>/bin/emctl status oms -details
+emcli login -username=sysman
+emcli list_plugins_on_server
+emctl config oms -list_repos_details
+$ export ORACLE_HOME=<13c_MIDDLEWARE_HOME>
+$ export PATH=$ORACLE_HOME/OMSPatcher:$PATH
+$ omspatcher lspatches
+$ OPatch lsinventory -details
+
+	
+OMS RU 27 (17-July-2025),Patch 37784425
+
+- 13.5.0 Enterprise Manager Cloud Control Base Platform Monthly Release Update (RU) 27 ( Doc ID 3095179.1 )
+
+AGENT RU 27 (17-July-2025),Patch 37784435
+
+- Enterprise Manager Cloud Control Management Agent 13.5 Release Update (RU) 27 Bug List ( Doc ID 3095221.1 )
+
+ 	
