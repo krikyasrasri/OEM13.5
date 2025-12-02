@@ -1,3 +1,13 @@
+oms 13.5 software only install : ./em13500_linux64.bin EMPREREQ_KIT=true -debug -silent -responseFile /data/software/upgrade.rsp -invPtrLoc /data/oracle/oraInventory/oraInst.loc
+
+after software install we have to stop all the oms services then start the upgrade process. This may take 2-3 hours. 
+
+Go to below directory then run the command in backup ground. 
+cd /data/oracle/middleware13.5/sysman/install
+nohup sh ConfigureGC.sh -silent -responseFile /data/software/upgrade.rsp  > gcconfigure.log &
+
+
+
 To generate the response files :-   ./em13500_linux64.bin  -getResponseFileTemplates -outputLoc/data/software/resp_files
 
 Latest patches to apply to OMS :- 
