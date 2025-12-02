@@ -1,0 +1,37 @@
+oracle@ip-10-72-56-60 bin]$ emcli login  -username=sysman -password=Intuit_123456
+[oracle@ip-10-72-56-60 bin]$ ./emcli login  -username=sysman -password=Intuit_123456
+Login successful
+[oracle@ip-10-72-56-60 bin]$ emcli sync
+[oracle@ip-10-72-56-60 bin]$ ./emcli sync
+Synchronized successfully
+[oracle@ip-10-72-56-60 bin]$ ./emcli get_supported_platforms
+-----------------------------------------------
+Version = 13.5.0.0.0
+ Platform = Linux x86-64
+-----------------------------------------------
+Version = 13.3.0.0.0
+ Platform = Microsoft Windows x64 (64-bit)
+-----------------------------------------------
+Version = 13.2.0.0.0
+ Platform = Linux x86-64
+-----------------------------------------------
+Version = 13.4.0.0.0
+ Platform = Linux x86-64
+-----------------------------------------------
+Platforms list displayed successfully.
+[oracle@ip-10-72-56-60 bin]$ ./emcli get_agentimage -destination=/data/software/agent13.5 -platform="Linux x86-64" -version=13.5.0.0.0
+ === Partition Detail ===
+Space free : 153 GB
+Space required : 1 GB
+Check the logs at /data/oracle/gc_inst13.5/em/EMGC_OMS1/sysman/emcli/setup/.emcli/get_agentimage_2025-12-02_15-54-44-PM.log
+Downloading /data/software/agent13.5/13.5.0.0.0_AgentCore_226.zip
+File saved as /data/software/agent13.5/13.5.0.0.0_AgentCore_226.zip
+Downloading /data/software/agent13.5/13.5.0.0.0_Plugins_226.zip
+File saved as /data/software/agent13.5/13.5.0.0.0_Plugins_226.zip
+Downloading /data/software/agent13.5/unzip
+File saved as /data/software/agent13.5/unzip
+Executing command: /data/software/agent13.5/unzip /data/software/agent13.5/13.5.0.0.0_Plugins_226.zip -d /data/software/agent13.5
+Archieving agentImage and plugins.
+Exit status is:0
+Agent Image Download completed successfully.
+[oracle@ip-10-72-56-60 bin]$
