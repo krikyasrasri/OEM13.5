@@ -1,0 +1,59 @@
+If we are planning to change the ip address of the OMS server we have to clear all the *.loc, *.pid, *.status files then start the oms server.
+
+Here are the commands to cleanup. 
+
+	
+Kindly perform a clean startup as per the below steps
+
+1. Stop OMS
+
+$<OMS_HOME>/bin>./emctl stop oms -all -force
+
+2. Get the process id of leftover processes
+
+ps -ef | grep EMGC_ADMINSERVER
+ps -ef | grep EMGC_OMS1
+ps -ef | grep java
+
+3. Kill the left over OMS java processes
+
+$kill -9 <PID>
+
+4. Delete the following files (if they exist):
+
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/servers/EMGC_OMS1/data/store/diagnostics/WLS_DIAGNOSTICS000000.DAT
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/servers/EMGC_OMS1/data/store/default/_WLS_EMGC_OMS1000000.DAT
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/servers/EMGC_ADMINSERVER/data/store/diagnostics/WLS_DIAGNOSTICS000000.DAT
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/servers/EMGC_ADMINSERVER/data/store/default/_WLS_EMGC_ADMINSERVER000000.DAT
+
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/config/config.lok
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/servers/EMGC_OMS1/tmp/EMGC_OMS1.lok
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/servers/EMGC_ADMINSERVER/tmp/EMGC_ADMINSERVER.lok
+
+If the OEM is configured with BIP, remove the following files as well:
+
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/servers/BIP/data/store/diagnostics/WLS_DIAGNOSTICS000000.DAT
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/servers/BIP/data/store/default/_WLS_BIP000000.DAT
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/servers/BIP/tmp/BIP.lok
+
+5. Delete ONLY *.lck, *.pid and *.state files in the following locations. Do NOT delete any other files. Do NOT delete the directories themselves:
+
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/servers/EMGC_OMS1/data/nodemanager/*.lck, *.pid, *.state
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/servers/EMGC_ADMINSERVER/data/nodemanager/*.lck, *.pid, *.state
+$EM_INSTANCE_BASE/gc_inst/user_projects/domains/GCDomain/servers/BIP/data/nodemanager/*.lck, *.pid, *.state
+
+6. Start OMS
+
+$<OMS_HOME>/bin>./emctl start oms
+
+
+for RHEL OS we have to install below rpms
+
+yum installlibaio 
+yum install libaio.so.1
+yum install apr
+yum install apr-util
+
+
+ 	 	 
+ 	
