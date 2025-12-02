@@ -1,0 +1,82 @@
+####################################################################
+##                                                                ##
+## Copyright (c) 2015 Oracle. All rights reserved.                ##
+##                                                                ##
+## Specify values for the variables listed below to customize     ##
+## your installation.                                             ##
+##                                                                ##
+## Each variable is associated with a comment. The comment        ##
+## identifies the variable type.                                  ##
+##                                                                ##
+## Specify values in the following format:                        ##
+##                                                                ##
+##         Type         Example                                   ##
+##         ----         -------                                   ##
+##         string       Sample Value                              ##
+##         boolean      TRUE or FALSE                             ##
+##         number       1000                                      ##
+##                                                                ##
+####################################################################
+####################################################################
+
+
+
+
+#------------------------------------------------------------------#
+# Name        : RESPONSEFILE_VERSION
+# Type        : string
+# Description : Response file name.
+#------------------------------------------------------------------#
+RESPONSEFILE_VERSION=2.2.1.0.0
+
+#------------------------------------------------------------------#
+# Name        : UNIX_GROUP_NAME
+# Type        : string
+# Description : UNIX group name.
+# Example     : UNIX_GROUP_NAME=dba
+#------------------------------------------------------------------#
+UNIX_GROUP_NAME=<string>
+
+#------------------------------------------------------------------#
+# Name        : OLD_BASE_DIR
+# Type        : string
+# Description : Old middleware Home that you want to upgrade.This is applicable when ONE_SYSTEM=true.
+#------------------------------------------------------------------#
+OLD_BASE_DIR=<string>
+
+#------------------------------------------------------------------#
+# Name        : ONE_SYSTEM
+# Type        : boolean
+# Description : can be true or false. Setting this variable to true indicates
+#               ONE_SYSTEM.Setting to false indicates "TWO_SYSTEM".
+#------------------------------------------------------------------#
+ONE_SYSTEM=true
+
+#------------------------------------------------------------------#
+# Name        : SYS_PASSWORD
+# Type        : string
+# Description : Password of DBA user used to create repository schema.
+# Example     : SYS_PASSWORD=password
+#------------------------------------------------------------------#
+SYS_PASSWORD=<string>
+
+#------------------------------------------------------------------#
+# Name        : SYSMAN_PASSWORD
+# Type        : string
+# Description : Password for sysman user.
+#------------------------------------------------------------------#
+SYSMAN_PASSWORD=<string>
+
+#------------------------------------------------------------------#
+# Name        : b_upgrade
+# Type        : boolean
+# Description : To Specify whether it is Normal Install or Upgrade.
+#------------------------------------------------------------------#
+b_upgrade=true
+
+#------------------------------------------------------------------#
+# Name        : EM_INSTALL_TYPE
+# Type        : string
+# Description : Type of Grid Control install being performed.
+#------------------------------------------------------------------#
+EM_INSTALL_TYPE=NOSEED

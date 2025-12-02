@@ -1,0 +1,106 @@
+####################################################################
+##                                                                ##
+## Copyright (c) 2015 Oracle. All rights reserved.                ##
+##                                                                ##
+## Specify values for the variables listed below to customize     ##
+## your installation.                                             ##
+##                                                                ##
+## Each variable is associated with a comment. The comment        ##
+## identifies the variable type.                                  ##
+##                                                                ##
+## Specify values in the following format:                        ##
+##                                                                ##
+##         Type         Example                                   ##
+##         ----         -------                                   ##
+##         string       Sample Value                              ##
+##         boolean      TRUE or FALSE                             ##
+##         number       1000                                      ##
+##                                                                ##
+####################################################################
+####################################################################
+
+
+
+
+#------------------------------------------------------------------#
+# Name        : RESPONSEFILE_VERSION
+# Type        : string
+# Description : Response file version
+#------------------------------------------------------------------#
+RESPONSEFILE_VERSION=2.2.1.0.0
+
+#------------------------------------------------------------------#
+# Name        : UNIX_GROUP_NAME
+# Type        : string
+# Description : Specify UNIX GROUP NAME if there is no central inventory and inventory location is not passed using -invptrLoc.
+# Example     : UNIX_GROUP_NAME=dba
+#------------------------------------------------------------------#
+UNIX_GROUP_NAME=<string>
+
+#------------------------------------------------------------------#
+# Name        : DATABASE_HOSTNAME
+# Type        : string
+# Description : Hostname of the Repository database.
+# Example     : DATABASE_HOSTNAME=hostname.domain.com
+#------------------------------------------------------------------#
+DATABASE_HOSTNAME=<string>
+
+#------------------------------------------------------------------#
+# Name        : LISTENER_PORT
+# Type        : string
+# Description : Port on which the Repository database is running.
+# Example     : LISTENER_PORT=1521
+#------------------------------------------------------------------#
+LISTENER_PORT=<string>
+
+#------------------------------------------------------------------#
+# Name        : SERVICENAME_OR_SID
+# Type        : string
+# Description : SID or Service name  of the Repository database.
+# Example     : SERVICENAME_OR_SID=emrep
+#------------------------------------------------------------------#
+SERVICENAME_OR_SID=<string>
+
+#------------------------------------------------------------------#
+# Name        : SYS_PASSWORD
+# Type        : string
+# Description : Password of DBA user used to create repository schema.
+# Example     : SYS_PASSWORD=password
+#------------------------------------------------------------------#
+SYS_PASSWORD=<string>
+
+#------------------------------------------------------------------#
+# Name        : SYSMAN_PASSWORD
+# Type        : string
+# Description : Password of sysman user.
+# Example     : SYSMAN_PASSWORD=password
+#------------------------------------------------------------------#
+SYSMAN_PASSWORD=<string>
+
+#------------------------------------------------------------------#
+# Name        : SYSMAN_CONFIRM_PASSWORD
+# Type        : string
+# Description : Password of sysman user.
+#------------------------------------------------------------------#
+SYSMAN_CONFIRM_PASSWORD=<string>
+
+#------------------------------------------------------------------#
+# Name        : b_upgrade
+# Type        : boolean
+# Description : To Specify whether it is Normal Install .
+#------------------------------------------------------------------#
+b_upgrade=false
+
+#------------------------------------------------------------------#
+# Name        : EM_INSTALL_TYPE
+# Type        : string
+# Description : Type of Grid Control install being performed.
+#------------------------------------------------------------------#
+EM_INSTALL_TYPE=NOSEED
+
+#------------------------------------------------------------------#
+# Name        : CONFIGURATION_TYPE
+# Type        : string
+# Description : Value can be "ADVANCED".
+#------------------------------------------------------------------#
+CONFIGURATION_TYPE=ADVANCED

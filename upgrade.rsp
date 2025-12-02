@@ -1,0 +1,306 @@
+####################################################################
+##                                                                ##
+## Copyright (c) 2015 Oracle. All rights reserved.                ##
+##                                                                ##
+## Specify values for the variables listed below to customize     ##
+## your installation.                                             ##
+##                                                                ##
+## Each variable is associated with a comment. The comment        ##
+## identifies the variable type.                                  ##
+##                                                                ##
+## Specify values in the following format:                        ##
+##                                                                ##
+##         Type         Example                                   ##
+##         ----         -------                                   ##
+##         string       Sample Value                              ##
+##         boolean      TRUE or FALSE                             ##
+##         number       1000                                      ##
+##                                                                ##
+####################################################################
+####################################################################
+
+
+
+
+#------------------------------------------------------------------#
+# Name        : RESPONSEFILE_VERSION
+# Type        : string
+# Description : Response file name.
+#------------------------------------------------------------------#
+RESPONSEFILE_VERSION=2.2.1.0.0
+
+#------------------------------------------------------------------#
+# Name        : UNIX_GROUP_NAME
+# Type        : string
+# Description : UNIX group name.
+# Example     : UNIX_GROUP_NAME=dba
+#------------------------------------------------------------------#
+UNIX_GROUP_NAME=oinstall
+
+#------------------------------------------------------------------#
+# Name        : INVENTORY_LOCATION
+# Type        : string
+# Description : Inventory location.
+# Example     : INVENTORY_LOCATION=/scratch/oracle/oraInventory
+#------------------------------------------------------------------#
+INVENTORY_LOCATION=/data/oracle/oraInventory
+
+#------------------------------------------------------------------#
+# Name        : INSTALL_UPDATES_SELECTION
+# Type        : string
+# Description : (String) 
+#               Option 1. If you want to skip the software updates, provide
+#               INSTALL_UPDATES_SELECTION="skip".
+#               Option 2. If you have already downloaded the updates then provide
+#               INSTALL_UPDATES_SELECTION="staged".
+#               If you choose the Option 2 then make sure you also provide STAGE_LOCATION.
+#------------------------------------------------------------------#
+INSTALL_UPDATES_SELECTION=skip
+
+#------------------------------------------------------------------#
+# Name        : STAGE_LOCATION
+# Type        : string
+# Description : Stage location for software updates. It will be effected only when INSTALL_UPDATES_SELECTION is  set to "staged".
+#               If you want to download the updates during the installation, make sure you
+#               provide MYORACLESUPPORT_USERNAME_FOR_SOFTWAREUPDATES and MYORACLESUPPORT_PASSWORD_FOR_SOFTWAREUPDATES.
+#               and set INSTALL_UPDATES_SELECTION="download".
+#------------------------------------------------------------------#
+STAGE_LOCATION=<string>
+
+#------------------------------------------------------------------#
+# Name        : MYORACLESUPPORT_USERNAME_FOR_SOFTWAREUPDATES
+# Type        : string
+# Description : If you want to download the updates during the installation, make sure you 
+#               provide MYORACLESUPPORT_USERNAME_FOR_SOFTWAREUPDATES and MYORACLESUPPORT_PASSWORD_FOR_SOFTWAREUPDATES.
+#               and set INSTALL_UPDATES_SELECTION="download".
+#------------------------------------------------------------------#
+MYORACLESUPPORT_USERNAME_FOR_SOFTWAREUPDATES=<string>
+
+#------------------------------------------------------------------#
+# Name        : MYORACLESUPPORT_PASSWORD_FOR_SOFTWAREUPDATES
+# Type        : string
+# Description : If you want to download the updates during the installation, make sure you 
+#               provide MYORACLESUPPORT_USERNAME_FOR_SOFTWAREUPDATES and MYORACLESUPPORT_PASSWORD_FOR_SOFTWAREUPDATES.
+#               and set INSTALL_UPDATES_SELECTION="download".
+#------------------------------------------------------------------#
+MYORACLESUPPORT_PASSWORD_FOR_SOFTWAREUPDATES=<string>
+
+#------------------------------------------------------------------#
+# Name        : ORACLE_MIDDLEWARE_HOME_LOCATION
+# Type        : string
+# Description : Oms ,oracle_common ,Oracle_WT Oracle Homes will be created under 
+#               this specified ORACLE_MIDDLEWARE_HOME_LOCATION.
+#------------------------------------------------------------------#
+ORACLE_MIDDLEWARE_HOME_LOCATION=/data/oracle/middleware13.5
+
+#------------------------------------------------------------------#
+# Name        : ORACLE_INSTANCE_HOME_LOCATION
+# Type        : string
+# Description : Oracle Instance home location.
+#------------------------------------------------------------------#
+ORACLE_INSTANCE_HOME_LOCATION=/data/oracle/gc_inst13.5
+
+#------------------------------------------------------------------#
+# Name        : OLD_BASE_DIR
+# Type        : string
+# Description : Old middleware Home that you want to upgrade.This is applicable when ONE_SYSTEM=true.
+#------------------------------------------------------------------#
+OLD_BASE_DIR=/data/oracle/Middleware13.4
+
+#------------------------------------------------------------------#
+# Name        : ORACLE_HOSTNAME
+# Type        : string
+# Description : Current Host name where the installer is invoked.
+#               this value may be provided only for TWO_SYSTEM Upgrade. This value should not be passed for ONE_SYSTEM upgrade.
+#               By default the fully qualified hostname of the machine will taken(without providing this value)
+#               Value for this ORACLE_HOSTNAME has to be provided only if you want to configure with different hostname.
+#------------------------------------------------------------------#
+ORACLE_HOSTNAME=emmsysas1.emmsys-as.a.intuit.com
+
+#------------------------------------------------------------------#
+# Name        : ONE_SYSTEM
+# Type        : boolean
+# Description : can be true or false. Setting this variable to true indicates
+#               ONE_SYSTEM.Setting to false indicates "TWO_SYSTEM".
+#------------------------------------------------------------------#
+ONE_SYSTEM=true
+
+#------------------------------------------------------------------#
+# Name        : AGENT_BASE_DIR
+# Type        : string
+# Description : Applicable for ONE_SYSTEM=false
+#               Agent home location where agent will be installed.
+#------------------------------------------------------------------#
+AGENT_BASE_DIR=/data/oracle/agent13.5
+
+#------------------------------------------------------------------#
+# Name        : OLD_DATABASE_CONNECTION_DESCRIPTION
+# Type        : string
+# Description : Provide value for below variable when old repository connect descriptor is not updated 
+#               through Pre-upgrade console. This is applicable for Two-System upgrade. i.e, ONE_SYSTEM=false.
+#               OLD_DATABASE_CONNECTION_DESCRIPTION:(String) Old Repository Connect Descriptor.
+#------------------------------------------------------------------#
+OLD_DATABASE_CONNECTION_DESCRIPTION="(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=emmsysdb1.emmsys-db.a.intuit.com)(PORT=1441))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=emmsys)))"
+
+#------------------------------------------------------------------#
+# Name        : OLD_DATABASE_SYSMAN_PASSWORD
+# Type        : string
+# Description : Old Repository SYSMAN password required only for TWO_SYSTEM system upgrade.
+#------------------------------------------------------------------#
+OLD_DATABASE_SYSMAN_PASSWORD=Intuit_123456
+
+#------------------------------------------------------------------#
+# Name        : WLS_ADMIN_SERVER_USERNAME
+# Type        : string
+# Description : Weblogic server user name.
+#------------------------------------------------------------------#
+WLS_ADMIN_SERVER_USERNAME=weblogic
+
+#------------------------------------------------------------------#
+# Name        : WLS_ADMIN_SERVER_PASSWORD
+# Type        : string
+# Description : Weblogic admin server password and confirm password.
+#------------------------------------------------------------------#
+WLS_ADMIN_SERVER_PASSWORD=Intuit_123456
+
+#------------------------------------------------------------------#
+# Name        : WLS_ADMIN_SERVER_CONFIRM_PASSWORD
+# Type        : string
+# Description : Weblogic admin server password and confirm password.
+#------------------------------------------------------------------#
+WLS_ADMIN_SERVER_CONFIRM_PASSWORD=Intuit_123456
+
+#------------------------------------------------------------------#
+# Name        : NODE_MANAGER_PASSWORD
+# Type        : string
+# Description : Node Manager Password and Node Manager Confirm Password.
+#------------------------------------------------------------------#
+NODE_MANAGER_PASSWORD=Intuit_123456
+
+#------------------------------------------------------------------#
+# Name        : NODE_MANAGER_CONFIRM_PASSWORD
+# Type        : string
+# Description : Node Manager Password and Node Manager Confirm Password.
+#------------------------------------------------------------------#
+NODE_MANAGER_CONFIRM_PASSWORD=Intuit_123456
+
+#------------------------------------------------------------------#
+# Name        : WLS_ADMIN_SERVER_PASSWORD
+# Type        : string
+# Description : Weblogic admin server password.
+#------------------------------------------------------------------#
+WLS_ADMIN_SERVER_PASSWORD=Intuit_123456
+
+#------------------------------------------------------------------#
+# Name        : JVM_DIAGNOSTICS_TABLESPACE_LOCATION
+# Type        : string
+# Description : Applicable for both ONE_SYSTEM and TWO_SYSTEM upgrade scenario from 10.2.0.5 -> 12.1.0.4.0
+#               JVM table space location.
+#------------------------------------------------------------------#
+JVM_DIAGNOSTICS_TABLESPACE_LOCATION="/data/files/datafiles/mgmt_deepdive.dbf"
+
+#------------------------------------------------------------------#
+# Name        : DATABASE_HOSTNAME
+# Type        : string
+# Description : Hostname of the Repository database.
+# Example     : DATABASE_HOSTNAME=hostname.domain.com
+#------------------------------------------------------------------#
+DATABASE_HOSTNAME=emmsysdb1.emmsys-db.a.intuit.com
+
+#------------------------------------------------------------------#
+# Name        : LISTENER_PORT
+# Type        : string
+# Description : Port on which the Repository database is running.
+# Example     : LISTENER_PORT=1521
+#------------------------------------------------------------------#
+LISTENER_PORT=1441
+
+#------------------------------------------------------------------#
+# Name        : SERVICENAME_OR_SID
+# Type        : string
+# Description : SID or Service name  of the Repository database.
+# Example     : SERVICENAME_OR_SID=emrep
+#------------------------------------------------------------------#
+SERVICENAME_OR_SID=emmsys01
+
+#------------------------------------------------------------------#
+# Name        : SYS_PASSWORD
+# Type        : string
+# Description : Password of DBA user used to create repository schema.
+# Example     : SYS_PASSWORD=password
+#------------------------------------------------------------------#
+SYS_PASSWORD=Intuit_123456
+
+#------------------------------------------------------------------#
+# Name        : SYSMAN_PASSWORD
+# Type        : string
+# Description : Password for sysman user.
+#------------------------------------------------------------------#
+SYSMAN_PASSWORD=Intuit_123456
+
+#------------------------------------------------------------------#
+# Name        : EMPREREQ_AUTO_CORRECTION
+# Type        : boolean
+# Description : To Specify whether prereqs can be auto correct.
+#------------------------------------------------------------------#
+EMPREREQ_AUTO_CORRECTION=false
+
+#------------------------------------------------------------------#
+# Name        : Is_oneWaySSL
+# Type        : string
+# Description : Set true if Database is configured with One way SSL.
+#------------------------------------------------------------------#
+Is_oneWaySSL=<string>
+
+#------------------------------------------------------------------#
+# Name        : TRUSTSTORE_LOCATION
+# Type        : string
+# Description : Absolute location of TrustStore Wallet file.
+#------------------------------------------------------------------#
+TRUSTSTORE_LOCATION=<string>
+
+#------------------------------------------------------------------#
+# Name        : TRUSTSTORE_PASSWORD
+# Type        : string
+# Description : TrustStore Wallet Password
+#------------------------------------------------------------------#
+TRUSTSTORE_PASSWORD=<string>
+
+#------------------------------------------------------------------#
+# Name        : REPOSITORY_BACKUP_DONE
+# Type        : boolean
+# Description : Applicable for ONE_SYSTEM upgrade scenario from 10.2.0.5/11.1/12.1.0.1.0
+#               /12.1.0.2.0/12.1.0.3.0  -> 12.1.0.4.0
+#               As a prerequisite, you must back up the Management Repository before you start upgrading your Enterprise Manager system.
+#               If you have	already taken a backup, then set this parameter to TRUE. Otherwise,
+#               take a backup immediately, then set this parameter to TRUE, and then proceed with the upgrade operation.
+#------------------------------------------------------------------#
+REPOSITORY_BACKUP_DONE=true
+
+#------------------------------------------------------------------#
+# Name        : PLUGIN_SELECTION
+# Type        : string
+# Description : PLUGIN_SELECTION:(StringList)  List of new plug-ins to be deployed during upgrade.
+#               All plug-ins deployed to the old Enterprise Manager system will be automatically
+#               upgraded/migrated based on the  availability of newer version of plug-in software.
+#               StringList contains list of strings and each string is PLUGIN_ID of that plugin.
+#               (DVD)/Disk1/plugins has list of plugins that are shipped as part of DVD.
+#               If you want to install 12.1.0.4.0_oracle.sysman.empa_2000_0.opar and 12.1.0.4.0_oracle.sysman.vt_2000_0.opar then
+#               pass PLUGIN_SELECTION={"oracle.sysman.empa","oracle.sysman.vt"}
+# Example     : PLUGIN_SELECTION={'oracle.sysman.empa','oracle.sysman.vt'}
+#------------------------------------------------------------------#
+PLUGIN_SELECTION={}
+
+#------------------------------------------------------------------#
+# Name        : b_upgrade
+# Type        : boolean
+# Description : To Specify whether it is Normal Install or Upgrade.
+#------------------------------------------------------------------#
+b_upgrade=true
+
+#------------------------------------------------------------------#
+# Name        : EM_INSTALL_TYPE
+# Type        : string
+# Description : Type of Grid Control install being performed.
+#------------------------------------------------------------------#
+EM_INSTALL_TYPE=NOSEED
