@@ -1,0 +1,408 @@
+[oracle@ip-10-72-56-60 EM24AI]$ ./em24100_linux64.bin -silent -responseFile /data/software/EM24AI/softwareOnlyWithPlugins_upgrade.rsp -invPtrLoc /data/oracle/oraInventory/oraInst.loc
+Launcher log file is /tmp/OraInstall2025-12-06_08-02-55PM/launcher2025-12-06_08-02-55PM.log.
+Extracting the installer . . . . . . . . . . . . . . . . . . . . . . . . . Done
+Checking swap space: must be greater than 512 MB.   Actual 15359 MB    Passed
+Checking if this platform requires a 64-bit JVM.   Actual 64    Passed (-d64 flag is not required)
+Preparing to launch the Oracle Universal Installer from /tmp/OraInstall2025-12-06_08-02-55PM
+NOTE: The below Central Agent will be upgraded.
+Old Agent Home: /data/software/agent13.5/agent_13.5.0.0.0
+New Agent Home: /data/oracle/agent24ai/agent_24.1.0.0.0
+Oracle Management Server installation started. This might take a while.
+Session log file is /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+Installation in progress
+
+Install successful
+Linking in progress
+
+Link successful
+Setup in progress
+
+Setup successful
+Oracle Management Server installation completed.
+Session log file is /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+Installation in progress
+
+Install successful
+Linking in progress
+
+Link successful
+Setup in progress
+
+Setup successful
+Agent installation started. This might take a while.
+Session log file is /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+Installation in progress
+
+Install successful
+Linking in progress
+
+Link successful
+Setup in progress
+
+Setup successful
+Agent installation completed.
+Going to apply stack Patches on Agent.
+Stack patches applied successfully on Agent.
+Session log file is /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+
+......................................................................................
+Installation in progress (Saturday, December 6, 2025 8:08:29 PM PST)
+                                          86% Done.
+Install successful
+
+Linking in progress (Saturday, December 6, 2025 8:08:30 PM PST)
+Link successful
+
+Setup in progress (Saturday, December 6, 2025 8:08:30 PM PST)
+Setup successful
+
+Saving inventory (Saturday, December 6, 2025 8:08:30 PM PST)
+Saving inventory complete
+
+End of install phases.(Saturday, December 6, 2025 8:08:37 PM PST)
+Session log file is /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+
+..................................................................................................
+Installation in progress (Saturday, December 6, 2025 8:08:40 PM PST)
+                              98% Done.
+Install successful
+
+Linking in progress (Saturday, December 6, 2025 8:08:40 PM PST)
+Link successful
+
+Setup in progress (Saturday, December 6, 2025 8:08:40 PM PST)
+Setup successful
+
+Saving inventory (Saturday, December 6, 2025 8:08:40 PM PST)
+Saving inventory complete
+
+End of install phases.(Saturday, December 6, 2025 8:08:46 PM PST)
+Session log file is /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+
+..................................................................................................
+Installation in progress (Saturday, December 6, 2025 8:08:49 PM PST)
+                              98% Done.
+Install successful
+
+Linking in progress (Saturday, December 6, 2025 8:08:50 PM PST)
+Link successful
+
+Setup in progress (Saturday, December 6, 2025 8:08:50 PM PST)
+Setup successful
+
+Saving inventory (Saturday, December 6, 2025 8:08:50 PM PST)
+Saving inventory complete
+
+End of install phases.(Saturday, December 6, 2025 8:08:57 PM PST)
+Session log file is /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+
+...............................................................  44% Done.
+...............................................................  88% Done.
+..............
+Installation in progress (Saturday, December 6, 2025 8:09:07 PM PST)
+                                                   98% Done.
+Install successful
+
+Linking in progress (Saturday, December 6, 2025 8:09:08 PM PST)
+Link successful
+
+Setup in progress (Saturday, December 6, 2025 8:09:08 PM PST)
+Setup successful
+
+Saving inventory (Saturday, December 6, 2025 8:09:08 PM PST)
+Saving inventory complete
+
+End of install phases.(Saturday, December 6, 2025 8:09:14 PM PST)
+Session log file is /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+
+..................................................................................................
+Installation in progress (Saturday, December 6, 2025 8:09:19 PM PST)
+                              98% Done.
+Install successful
+
+Linking in progress (Saturday, December 6, 2025 8:09:19 PM PST)
+Link successful
+
+Setup in progress (Saturday, December 6, 2025 8:09:19 PM PST)
+Setup successful
+
+Saving inventory (Saturday, December 6, 2025 8:09:19 PM PST)
+Saving inventory complete
+
+End of install phases.(Saturday, December 6, 2025 8:09:25 PM PST)
+Session log file is /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+
+...............................................................  48% Done.
+...............................................................  96% Done.
+...
+Installation in progress (Saturday, December 6, 2025 8:09:36 PM PST)
+                                                              98% Done.
+Install successful
+
+Linking in progress (Saturday, December 6, 2025 8:09:36 PM PST)
+Link successful
+
+Setup in progress (Saturday, December 6, 2025 8:09:36 PM PST)
+Setup successful
+
+Saving inventory (Saturday, December 6, 2025 8:09:36 PM PST)
+Saving inventory complete
+
+End of install phases.(Saturday, December 6, 2025 8:09:42 PM PST)
+Session log file is /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+
+...............................................................  42% Done.
+...............................................................  85% Done.
+...................
+Installation in progress (Saturday, December 6, 2025 8:10:00 PM PST)
+                                              98% Done.
+Install successful
+
+Linking in progress (Saturday, December 6, 2025 8:10:00 PM PST)
+Link successful
+
+Setup in progress (Saturday, December 6, 2025 8:10:00 PM PST)
+Setup successful
+
+Saving inventory (Saturday, December 6, 2025 8:10:00 PM PST)
+Saving inventory complete
+
+End of install phases.(Saturday, December 6, 2025 8:10:06 PM PST)
+createNGOUIPluginFarb: paramters passed are pluginmodel=PluginModel for pluginID=oracle.em.smss pluginType=MP pluginName=Microsoft SQLServer Database pluginVersion=13.3.3.0.0 pluginDescription=Enterprise Manager for Microsoft SQL Server PluginSelection=true pluginLocation=null iscoreplugin=false Required CompileTime Plugins={} RunTime Plugins={} revision is 0editable=false showPlugin=true migratePlugin=oracle.em.smss oldPluginLoc=/data/oracle/middleware13.5/plugins/oracle.em.smss.oms.plugin_13.3.3.0.0  oldVersion=13.3.3.0.0
+ plugintype=oms pluginTobeConverted=/data/oracle/middleware13.5/plugins/oracle.em.smss.oms.plugin_13.3.3.0.0 stageDir=EM24AI/stage/tmp_installer iszip=false
+OSP_Log_To_Console is now the default.
+Additional detailed information is here: /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+Oracle Software Package version: 13.9.4.0.0
+OSP log: /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+Temp location not exists... creating: /tmp/ospTemp2025-12-06_08-10-08PM
+Setting the temporary directory to "/tmp/ospTemp2025-12-06_08-10-08PM".
+Adding Library netQueries version 10.2.0.2.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/netQueries.jar.
+Adding Library NtServicesQueries version 10.2.0.3.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/NtServiceQueries.jar.
+Adding Library javaHomeQueries version 13.8.0.0.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/javaHomeQueries.jar.
+Adding Library w32RegQueries version 10.2.0.1.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/w32RegQueryLib.jar.
+Adding Library rgsQueries version 10.1.0.3.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/rgsQueries.jar.
+Adding Library jdkGeneralQueries version 12.1.3.0.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/jdkGeneralQueries.jar.
+Adding Library areasQueries version 10.2.0.1.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/areasQueries.jar.
+Adding Library WindowsGeneralQueries version 10.2.0.1.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/WindowsGeneralQueries.jar.
+Adding Library generalQueries version 10.2.0.2.1 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/generalQueries.jar.
+Adding Library unixQueries version 10.1.0.2.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/unixQueries.jar.
+Adding Library fileQueries version 10.1.0.3.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/fileQueries.jar.
+Adding Library clusterQueriesEx version 10.2.0.1.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/clusterQuery.jar.
+Adding Library dbQueries version 10.1.0.2.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/dbQueries.jar.
+Adding Library oradim version 10.1.0.3.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/oradim.jar.
+Adding Library unixActions version 10.2.0.3.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/unixActions.jar.
+Adding Library w32RegActions version 10.2.0.1.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/w32RegActionLib.jar.
+Adding Library ntw32FoldersActions version 10.2.0.3.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/WindowsFolders.jar.
+Adding Library jarActions version 10.2.0.0.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/jarActionLib.jar.
+Adding Library ntServicesActions version 10.2.0.6.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/ntServicesActions.jar.
+Adding Library generalActions version 10.2.0.9.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/generalActions.jar.
+Adding Library propertiesActions version 12.1.3.0.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/propertiesActions.jar.
+Adding Library SpawnActions version 10.1.0.3.4 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/spawnActions.jar.
+Adding Library rgsActions version 10.1.0.3.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/rgsActions.jar.
+Adding Library fileActions version 12.1.3.0.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/fileActionLib.jar.
+Adding Library clusterActions version 10.1.0.2.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/clusterActionLib.jar.
+Adding Library wingeneralActions version 10.2.0.1.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/wingeneralActionLib.jar.
+Adding Library zOSActions version 10.1.0.2.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/zOSActions.jar.
+Adding Library launchPadActions version 10.1.0.2.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/launchpadaction.jar.
+Adding Library dbActions version 10.1.0.2.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/dbActions.jar.
+Adding Library w32OcxRegActions version 10.2.0.1.0 to Catalog from location /tmp/OraInstall2025-12-06_08-02-55PM/oui/modules/oui-libraries_12.8.4.0/w32OcxLib.jar.
+Begin NextGen parsing...
+Reading definition file for component: oracle.em.smss.oms.plugin_13.3.3.0.0
+Reading components section for component  "oracle.em.smss.oms.plugin" version   "13.3.3.0.0"
+Finished parsing...
+opening components...
+
+Staging:
+Stage Locations:/tmp/farb185-1765080608674.tmp/nginstall/stage
+TreatWarningAsErrors=false
+PauseBeforeStage=false
+CreateTranslationsArea=false
+Stage Platforms :null, null, null, null, null, null, null, Linux_AMD64, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+ Component:  Name = oracle.em.smss.oms.plugin Version = 13.3.3.0.0 Build Number = 0
+
+Checking for compatible entries in the staging area.
+Checking Component : "oracle.em.smss.oms.plugin" version "13.3.3.0.0" platform "[ null null null null null null null Linux_AMD64 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null ]".
+Total no of errors : 0    Total no of warnings : 0
+
+
+Verifying Component "oracle.em.smss.oms.plugin" ( oracle.em.smss.oms.plugin )  from file /tmp/farb185-1765080608674.tmp/nginstall/components/oracle.em.smss.oms.plugin/13.3.3.0.0/oracle.em.smss.oms.plugin.xml
+Loading libraries from /tmp/farb185-1765080608674.tmp/nginstall/components/oracle.em.smss.oms.plugin/13.3.3.0.0.prp
+Loading libraries from /tmp/farb185-1765080608674.tmp/nginstall/components/oracle.em.smss.oms.plugin/13.3.3.0.0.prp
+Verifying that variables are initialized before use
+Verifying installation help files
+Errors: 0    Warnings: 0
+
+Initializing NextGen Component stager
+Staging Component "oracle.em.smss.oms.plugin" ( oracle.em.smss.oms.plugin ) from file /tmp/farb185-1765080608674.tmp/nginstall/components/oracle.em.smss.oms.plugin/13.3.3.0.0/oracle.em.smss.oms.plugin.xml
+Replacing entries : 0
+    Generated constants code
+    Generated component context
+    Generated variables code
+    Generated file map information
+    Generated component properties
+    Generated resource file
+Script generation over
+Compiling generated files. Wait
+    Compiling /tmp/farb185-1765080608674.tmp/nginstall/stage/Scripts/0/Components/oracle/em/smss/oms/plugin/v13_3_3_0_0/CompContext.java /tmp/farb185-1765080608674.tmp/nginstall/stage/Scripts/0/Components/oracle/em/smss/oms/plugin/v13_3_3_0_0/resources/CompRes.java
+Compilation complete
+Updating Components/oracle.em.smss.oms.plugin/13.3.3.0.0/oracle.em.smss.oms.plugin_install.jar
+Jarring files for /tmp/farb185-1765080608674.tmp/nginstall/stage/Components/oracle.em.smss.oms.plugin/13.3.3.0.0/DataFiles//filegroup1.jar
+OSP-10555:Ignoring duplicate install file "oracle.em.smss.oms.plugin_13.3.3.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.em.smss.oms.plugin_13.3.3.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.em.smss.oms.plugin_13.3.3.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.em.smss.oms.plugin_13.3.3.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.em.smss.oms.plugin_13.3.3.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.em.smss.oms.plugin_13.3.3.0.0/" from source "" in filegroup "filegroup1.jar"
+Updating stage inventory
+Replacing entries : 0
+Done.
+
+
+No of components for stage  : 1
+No of components successfully staged : 1
+No of components that failed  : 0
+
+
+Exiting OSP
+Session log file is /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+
+..................................................................................................
+Installation in progress (Saturday, December 6, 2025 8:10:16 PM PST)
+                              98% Done.
+Install successful
+
+Linking in progress (Saturday, December 6, 2025 8:10:16 PM PST)
+Link successful
+
+Setup in progress (Saturday, December 6, 2025 8:10:16 PM PST)
+Setup successful
+
+Saving inventory (Saturday, December 6, 2025 8:10:16 PM PST)
+Saving inventory complete
+
+End of install phases.(Saturday, December 6, 2025 8:10:22 PM PST)
+createNGOUIPluginFarb: paramters passed are pluginmodel=PluginModel for pluginID=oracle.fmw.gg pluginType=ADD_ON_TARGET_MANAGER pluginName=Oracle GoldenGate pluginVersion=13.4.2.0.0 pluginDescription=GoldenGate Plug-in now supports monitoring of Oracle GoldenGate Microservices, in addition to the Oracle GoldenGate Classic  PluginSelection=true pluginLocation=null iscoreplugin=false Required CompileTime Plugins={} RunTime Plugins={} revision is 0editable=false showPlugin=true migratePlugin=oracle.fmw.gg oldPluginLoc=/data/oracle/middleware13.5/plugins/oracle.fmw.gg.oms.plugin_13.4.2.0.0  oldVersion=13.4.2.0.0
+ plugintype=oms pluginTobeConverted=/data/oracle/middleware13.5/plugins/oracle.fmw.gg.oms.plugin_13.4.2.0.0 stageDir=EM24AI/stage/tmp_installer iszip=false
+Begin NextGen parsing...
+Reading definition file for component: oracle.fmw.gg.oms.plugin_13.4.2.0.0
+Reading components section for component  "oracle.fmw.gg.oms.plugin" version   "13.4.2.0.0"
+Finished parsing...
+opening components...
+
+Staging:
+Stage Locations:/tmp/farb93-1765080624677.tmp/nginstall/stage
+TreatWarningAsErrors=false
+PauseBeforeStage=false
+CreateTranslationsArea=false
+Stage Platforms :null, null, null, null, null, null, null, Linux_AMD64, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+ Component:  Name = oracle.fmw.gg.oms.plugin Version = 13.4.2.0.0 Build Number = 0
+
+Checking for compatible entries in the staging area.
+Checking Component : "oracle.fmw.gg.oms.plugin" version "13.4.2.0.0" platform "[ null null null null null null null Linux_AMD64 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null ]".
+Total no of errors : 0    Total no of warnings : 0
+
+
+Verifying Component "oracle.fmw.gg.oms.plugin" ( oracle.fmw.gg.oms.plugin )  from file /tmp/farb93-1765080624677.tmp/nginstall/components/oracle.fmw.gg.oms.plugin/13.4.2.0.0/oracle.fmw.gg.oms.plugin.xml
+Loading libraries from /tmp/farb93-1765080624677.tmp/nginstall/components/oracle.fmw.gg.oms.plugin/13.4.2.0.0.prp
+Loading libraries from /tmp/farb93-1765080624677.tmp/nginstall/components/oracle.fmw.gg.oms.plugin/13.4.2.0.0.prp
+Verifying that variables are initialized before use
+Verifying installation help files
+Errors: 0    Warnings: 0
+
+Initializing NextGen Component stager
+Staging Component "oracle.fmw.gg.oms.plugin" ( oracle.fmw.gg.oms.plugin ) from file /tmp/farb93-1765080624677.tmp/nginstall/components/oracle.fmw.gg.oms.plugin/13.4.2.0.0/oracle.fmw.gg.oms.plugin.xml
+Replacing entries : 0
+    Generated constants code
+    Generated component context
+    Generated variables code
+    Generated file map information
+    Generated component properties
+    Generated resource file
+Script generation over
+Compiling generated files. Wait
+    Compiling /tmp/farb93-1765080624677.tmp/nginstall/stage/Scripts/0/Components/oracle/fmw/gg/oms/plugin/v13_4_2_0_0/CompContext.java /tmp/farb93-1765080624677.tmp/nginstall/stage/Scripts/0/Components/oracle/fmw/gg/oms/plugin/v13_4_2_0_0/resources/CompRes.java
+Compilation complete
+Updating Components/oracle.fmw.gg.oms.plugin/13.4.2.0.0/oracle.fmw.gg.oms.plugin_install.jar
+Jarring files for /tmp/farb93-1765080624677.tmp/nginstall/stage/Components/oracle.fmw.gg.oms.plugin/13.4.2.0.0/DataFiles//filegroup1.jar
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+OSP-10555:Ignoring duplicate install file "oracle.fmw.gg.oms.plugin_13.4.2.0.0/" from source "" in filegroup "filegroup1.jar"
+Updating stage inventory
+Replacing entries : 0
+Done.
+
+
+No of components for stage  : 1
+No of components successfully staged : 1
+No of components that failed  : 0
+
+
+Exiting OSP
+Session log file is /tmp/OraInstall2025-12-06_08-02-55PM/install2025-12-06_08-02-55PM.log
+
+..................................................................................................
+Installation in progress (Saturday, December 6, 2025 8:10:28 PM PST)
+                              98% Done.
+Install successful
+
+Linking in progress (Saturday, December 6, 2025 8:10:29 PM PST)
+Link successful
+
+Setup in progress (Saturday, December 6, 2025 8:10:29 PM PST)
+Setup successful
+
+Saving inventory (Saturday, December 6, 2025 8:10:29 PM PST)
+Saving inventory complete
+
+End of install phases.(Saturday, December 6, 2025 8:10:35 PM PST)
+Applying stack patches. This might take a while.
+
+
+
+
+Stack Patches got applied Successfully.
+.Prompt for the allroot.sh
+
+Warning: You must run the following configuration scripts as the "root" user.
+  /data/oracle/EM24AI/oms_home/allroot.sh
+To execute the configuration scripts:
+ 1. Open a new  terminal window.
+ 2. Login in as "root".
+ 3. Run the scripts.
+
+Successfully installed Enterprise Manager Cloud Control.
+Logs successfully copied to /data/oracle/oraInventory/logs.
+[oracle@ip-10-72-56-60 EM24AI]$
+[oracle@ip-10-72-56-60 EM24AI]$
+[oracle@ip-10-72-56-60 EM24AI]$
+[oracle@ip-10-72-56-60 EM24AI]$
+[oracle@ip-10-72-56-60 EM24AI]$ exit
+logout
+sh-4.4$ sudo su -
+[root@ip-10-72-56-60 ~]# /data/oracle/EM24AI/oms_home/allroot.sh
+
+Starting to execute allroot.sh .........
+
+Starting to execute /data/oracle/EM24AI/oms_home/root.sh ......
+Check /data/oracle/EM24AI/oms_home/install/root_ip-10-72-56-60.vpc.internal_2025-12-06_20-30-51-610009276.log for the output of root script
+Finished execution of  /data/oracle/EM24AI/oms_home/root.sh ......
+
+
+Starting to execute /data/oracle/agent24ai/agent_24.1.0.0.0/root.sh ......
+
+Finished product-specific root actions.
+/etc exist
+/data/oracle/agent24ai/agent_24.1.0.0.0
+Finished execution of  /data/oracle/agent24ai/agent_24.1.0.0.0/root.sh ......
+[root@ip-10-72-56-60 ~]#
