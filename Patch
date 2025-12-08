@@ -150,4 +150,167 @@ shared_servers			     integer	 0
 SQL>
 
 
+SQL> conn sysman/Intuit_123456
+Connected.
+SQL> set serveroutput on
+declare
+oms_guids mgmt_medium_string_array := mgmt_medium_string_array();
+oms_names mgmt_medium_string_array := mgmt_medium_string_array();
+mismatches smp_emd_nvpair_array := smp_emd_nvpair_array();
+begin
+select host_url, em_plugin_util.get_guid_from_name(unique_oms_name)
+bulk collect into oms_names, oms_guids
+from gc_oms_info;
+for j in 1..oms_guids.count
+loop
+dbms_output.put_line('Checking mismatch for OMS ' || oms_names(j));
+mismatches := smp_emd_nvpair_array();
+em_plugin_inventory.get_plugin_mismatch(oms_guids(j), mismatches);
+if mismatches is null or mismatches.count = 0
+then
+dbms_output.put_line('No mismatch found for OMS ' || oms_names(j));
+else
+dbms_output.put_line('Mismatch found for OMS ' || oms_names(j));
+for i in 1..mismatches.SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19  count
+loop
+dbms_output.put_line('Plug-in on repository: ' || nvl(mismatches(i).name, 'None') ||
+', Plug-in on OMS: ' || nvl(mismatches(i).value, 'None'));
+end loop;
+end if;
+end loop;
+end;
+/ 20   21   22   23   24   25   26   27
+Checking mismatch for OMS
+emmsysas1.emmsys-as.a.intuit.com:4889_Management_Service
+No mismatch found for OMS
+emmsysas1.emmsys-as.a.intuit.com:4889_Management_Service
+
+PL/SQL procedure successfully completed.
+
+SQL> select mt.target_name||' Agent Version='|| mtp.property_value from mgmt_target_properties mtp , mgmt_targets mt where mt.target_type='oracle_emd' and mt.target_guid = mtp.target_guid and mtp.property_name='Version' and mtp.property_value < '13.3.0.0.0';
+
+MT.TARGET_NAME||'AGENTVERSION='||MTP.PROPERTY_VALUE
+--------------------------------------------------------------------------------
+synpds19c.cia4ixutxskb.us-west-2.rds.amazonaws.com:3872 Agent Version=13.2.0.0.0
+
+SQL> SELECT job_type, status, cnt
+FROM (
+SELECT job_type, status, count(*) as cnt
+FROM MGMT_JOB_EXEC_SUMMARY join MGMT_JOB_TYPE_INFO using (job_type_id)
+WHERE status NOT IN(3,4,5,8,18,19,23)
+group by job_type, status
+order by 3, 1, 2
+)
+where cnt  2   > 10000;  3    4    5    6    7    8    9
+
+no rows selected
+
+SQL> select master, log_table from all_mview_logs where log_owner='SYSMAN';
+
+no rows selected
+
+SQL>
+SQL> SELECT trigger_name FROM sys.dba_triggers WHERE TRIGGERING_EVENT LIKE 'LOGON%' AND status='ENABLED';
+
+no rows selected
+
+SQL> SELECT trigger_name FROM sys.dba_triggers WHERE TRIGGERING_EVENT LIKE 'LOGOFF%' AND status='ENABLED';
+
+TRIGGER_NAME
+--------------------------------------------------------------------------------
+GSMLOGOFF
+
+SQL>
+SQL>
+SQL> select owner from dba_objects where object_name='GSMLOGOFF';
+
+OWNER
+--------------------------------------------------------------------------------
+GSMADMIN_INTERNAL
+
+SQL> conn / as sysdba
+Connected.
+SQL> alter trigger GSMADMIN_INTERNAL.GSMLOGOFF disable;
+
+Trigger altered.
+
+SQL> select sid,serial#,username,status,action,machine from v$session where username is not null and status='ACTIVE';
+
+       SID    SERIAL#
+---------- ----------
+USERNAME
+--------------------------------------------------------------------------------
+STATUS	 ACTION
+-------- ----------------------------------------------------------------
+MACHINE
+----------------------------------------------------------------
+       479	14412
+SYS
+ACTIVE
+ip-10-72-62-47.vpc.internal
+
+
+       SID    SERIAL#
+---------- ----------
+USERNAME
+--------------------------------------------------------------------------------
+STATUS	 ACTION
+-------- ----------------------------------------------------------------
+MACHINE
+----------------------------------------------------------------
+      5653	59454
+SYS
+ACTIVE
+ip-10-72-62-47.vpc.internal
+
+
+SQL> alter system set "_allow_insert_with_update_check"=true scope=both sid='*';
+
+System altered.
+
+SQL> alter system reset "_optimizer_nlj_hj_adaptive_join" scope=both sid='*';
+
+System altered.
+
+SQL> alter system reset "_optimizer_strans_adaptive_pruning" scope=both sid='*';
+
+System altered.
+
+SQL> alter system reset "_px_adaptive_dist_method" scope=both sid='*';
+
+System altered.
+
+SQL> alter system reset "_sql_plan_directive_mgmt_control" scope=both sid='*';
+
+System altered.
+
+SQL> alter system reset "_optimizer_dsdir_usage_control" scope=both sid='*';
+
+System altered.
+
+SQL> alter system reset "_optimizer_use_feedback" scope=both sid='*';
+
+System altered.
+
+SQL> alter system reset "_optimizer_gather_feedback" scope=both sid='*';
+
+System altered.
+
+SQL> alter system reset "_optimizer_performance_feedback" scope=both sid='*';
+
+System altered.
+
+SQL> select username from dba_users where username like '%OPSS%';
+
+USERNAME
+--------------------------------------------------------------------------------
+SYSMAN_OPSS
+SYSMAN122130_OPSS
+
+SQL> select * from sysman122130_opss.jps_dn where parentdn like '%cn=roles%' and (rdn like '%'||CHR(9)||'%' OR rdn like '%\%' OR rdn like ' %' OR rdn like '% ') and (rdn like '%cn=%');
+
+
+no rows selected
+
+SQL> SQL>
 
