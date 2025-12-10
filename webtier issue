@@ -1,0 +1,13 @@
+erform below Steps:
+
+1. Stop running processes
+
+<OMS_HOME>/bin/./emctl stop oms -all -force
+
+2. Rename libcrypto.so.1.1 as libcrypto.so.1.1_old.
+
+Path: OMS_HOME/ohs/lib/libcrypto.so.1.1
+
+3. Start OMS
+
+<OMS_HOME>/bin/./emctl start oms
