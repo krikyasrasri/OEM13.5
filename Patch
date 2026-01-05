@@ -314,3 +314,145 @@ no rows selected
 
 SQL> SQL>
 
+
+
+
+========================== Client Upgrade ___________________
+
+
+[oracle@ip-10-72-56-205 OMS_Patch]$ unzip p34761383_122140_Linux-x86-64.zip
+Archive:  p34761383_122140_Linux-x86-64.zip
+   creating: 34761383/
+  inflating: 34761383/readme.txt
+  inflating: 34761383/fmw_12.2.1.19.0_dbclient_linux64.bin
+  inflating: 34761383/changePerm.sh
+  inflating: 34761383/areasQueries.jar
+  inflating: 34761383/rbScript.sh
+[oracle@ip-10-72-56-205 OMS_Patch]$ cd 34761383
+[oracle@ip-10-72-56-205 34761383]$ ./changePerm.sh /data/oracle/middleware13.5
+Warning : OS Version could not be determined. Please check the Certification matrix and determine if the product is supported on this OS version.
+Change permission of /data/oracle/middleware13.5/QOpatch/qopiprep.bat
+Update areasQueries
+Rename /data/oracle/middleware13.5/bin/skgxpinfo to /data/oracle/middleware13.5/bin/skgxpinfo.12c.bak
+
+Starting rollback of Patches. This action may take some time ..........
+ORACLE_HOME = /data/oracle/middleware13.5
+PATCHES_LIST_IN_ORDER = 29494060,33779451,33897347,34454476
+ONEOFF_PATCHES  = 34830313
+####################### Begin : rollbackOneoffPatches() ########################
+ORACLE_HOME=/data/oracle/middleware13.5
+Patches to be rolled back=34830313
+
+Running : /data/oracle/middleware13.5/OPatch/opatch lspatches -oh /data/oracle/middleware13.5 | grep -E "34830313"
+
+Patch ID(s):
+
+
+
+Rollback of Oneoff patch operation is not needed.Continue....
+
+########################## End : rollbackOneoffPatches() ########################
+
+real	0m5.433s
+user	0m21.073s
+sys	0m0.789s
+####################### Begin : rollbackPatches() ########################
+ORACLE_HOME=/data/oracle/middleware13.5
+Patches to be rolled back=29494060|33779451|33897347|34454476
+
+Running : /data/oracle/middleware13.5/OPatch/opatch lspatches -oh /data/oracle/middleware13.5 | grep -E "29494060|33779451|33897347|34454476"
+
+Patch ID(s):
+
+
+
+Rollback operation is not needed.Continue with Thin Installer
+
+########################## End : rollbackPatches() ########################
+
+real	0m5.320s
+user	0m19.983s
+sys	0m0.858s
+All Success
+[oracle@ip-10-72-56-205 34761383]$ ./changePermJDK.sh /data/oracle/middleware13.5
+-bash: ./changePermJDK.sh: No such file or directory
+[oracle@ip-10-72-56-205 34761383]$ export ORACLE_HOME=/data/oracle/middleware13.5
+[oracle@ip-10-72-56-205 34761383]$ ./fmw_12.2.1.19.0_dbclient_linux64.bin -invPtrLoc ${ORACLE_HOME}/oraInst.loc -silent ORACLE_HOME=${ORACLE_HOME}
+	Launcher log file is /tmp/OraInstall2026-01-05_11-03-07AM/launcher2026-01-05_11-03-07AM.log.
+Checking if CPU speed is above 300 MHz.   Actual 3599.966 MHz    Passed
+Checking swap space: must be greater than 512 MB.   Actual 15359 MB    Passed
+Checking if this platform requires a 64-bit JVM.   Actual 64    Passed (-d64 flag is not required)
+Checking temp space: must be greater than 300 MB.   Actual 50908 MB    Passed
+Preparing to launch the Oracle Universal Installer from /tmp/OraInstall2026-01-05_11-03-07AM
+Log: /tmp/OraInstall2026-01-05_11-03-07AM/install2026-01-05_11-03-07AM.log
+Setting ORACLE_HOME...
+Copyright (c) 1996, 2022, Oracle and/or its affiliates. All rights reserved.
+Skipping Software Updates
+Starting check : CertifiedVersions
+Problem: This Oracle software was not certified on the current operating system at the time it was made generally available. It may have been certified following general availability.
+
+Recommendation: Check the Supported System Configurations Guide (http://www.oracle.com/technetwork/middleware/ias/downloads/fusion-certification-100350.html) for further details. If your operating system is certified, check the System Requirements Guide (http://www.oracle.com/technetwork/middleware/ias/downloads/fusion-requirements-100147.html) to verify your system configuration.  If the system meets the required configuration, press "Next" if you wish to continue.
+
+Expected result: One of oracle-8, redhat-7, oracle-7, SuSE-11, SuSE-12, SuSE-15
+Actual result: SuSE-2
+Warning: Check:CertifiedVersions completed with warnings.
+
+
+Starting check : Packages
+Prerequisite Check was skipped and did not execute.
+Warning: Check:Packages completed with warnings.
+
+
+Starting check : Kernel
+Prerequisite Check was skipped and did not execute.
+Warning: Check:Kernel completed with warnings.
+
+
+Starting check : TotalMemory
+Expected result: 1024MB
+Actual Result: 31352MB
+Check complete. The overall result of this check is: Passed
+TotalMemory Check: Success.
+
+
+Starting check : CheckJDKVersion
+Expected result: 1.8.0_341
+Actual Result: 1.8.0_341
+Check complete. The overall result of this check is: Passed
+CheckJDKVersion Check: Success.
+
+
+Validations are enabled for this session.
+Verifying data
+Copying Files
+Percent Complete : 10
+Percent Complete : 20
+Percent Complete : 30
+Percent Complete : 40
+Percent Complete : 50
+Percent Complete : 60
+Percent Complete : 70
+Percent Complete : 80
+Percent Complete : 90
+Percent Complete : 100
+
+The installation of Database Client 12.2.1.19.0 completed successfully.
+Logs successfully copied to /data/oracle/oraInventory/logs.
+[oracle@ip-10-72-56-205 34761383]$ $ORACLE_HOME/bin/sqlplus -version
+
+SQL*Plus: Release 19.0.0.0.0 - Production
+Version 19.14.0.0.0
+
+[oracle@ip-10-72-56-205 34761383]$ cd /data/oracle/product/
+[oracle@ip-10-72-56-205 product]$ ls -rlth
+total 5.4G
+drwx------. 30 oracle oinstall 4.0K Feb 24  2021 12.1.0.2
+drwxr-xr-x.  2 oracle oinstall   50 Nov 10  2021 pull
+drwxr-xr-x. 55 oracle oinstall 4.0K May 10  2023 19.3.0.0
+-rw-r--r--.  1 oracle oinstall 1.1G Jan  5 09:56 19.3.0.0.zip
+-rw-r--r--.  1 oracle oinstall 4.4G Jan  5 09:58 12.1.0.2.tar.gz
+[oracle@ip-10-72-56-205 product]$ cd
+[oracle@ip-10-72-56-205 ~]$ cd /data/o
+
+DB
+
